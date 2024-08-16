@@ -2,9 +2,6 @@ const mongoose = require('mongoose');
 const Recipe = require('../models/Recipe');
 const User = require('../models/User');
 
-// @desc    Create a new recipe
-// @route   POST /api/recipes
-// @access  Private
 const createRecipe = async (req, res) => {
     const { title, description, ingredients, steps, image ,likes } = req.body;
 

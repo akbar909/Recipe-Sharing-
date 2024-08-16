@@ -5,7 +5,6 @@ const path = require('path');
 const connectDB = require('./config/db');
 const userRoutes = require('./routes/userRoutes');
 const recipeRoutes = require('./routes/recipeRoutes');
-// const bodyParser = require('body-parser');
 
 dotenv.config();
 connectDB();
